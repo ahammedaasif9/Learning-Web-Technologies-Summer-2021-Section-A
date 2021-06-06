@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+<table>
+<h1>PERSON PROFILE</h1>
+
+<form>
+<tr><td>Name: <input type="text" name='firstname'></td></tr>
+<br>
+<tr><td>Email: <input type="text" name='email'></td></tr>
+<br>
+
+<tr> <td>Gender:
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label>
+    <input type="radio" id="other" name="gender" value="other">
+    <label for="other">Other</label><br> </td> </tr>
+
+    <tr><td>
+        <label for="birthday">Date of Birth:</label>
+        <input type="number" id="dob" name="dob" size="10">/<input type="number" id="dob" name="dob" size="10">/<input type="number" id="dob" name="dob" size="15"><label for="day">(dd/mm/yyy)</label>
+</td></tr>
+<tr><td>Blood Group :
+<select>
+    <option>A Positive</option>
+    <option>A Negative</option>
+    <option>A Unknown</option>
+    <option>B Positive</option>
+    <option>B Negative</option>
+    <option>B Unknown</option>
+    <option>AB Positive</option>
+    <option>AB Negative</option>
+    <option>AB Unknown</option>
+    <option>O Positive</option>
+    <option>O Negative</option>
+    <option>O Unknown</option>
+    <option>Unknown</option>
+</select>
+</td></tr>
+<tr>
+    <td> <label for="Checkbox ">Degree : </label>
+    <input type="checkbox"  name="value1" value="SSC">
+    <label for="value1">SSC</label>
+    <input type="checkbox" name="value2" value="HSC">
+    <label for="value2">HSC</label>
+    <input type="checkbox"  name="value3" value="BSc">
+    <label for="value3"> BSc</label>
+    </td>
+    </tr>
+    <tr> <td>Profile Picture: </td></tr>
+    <tr> <td>User ID: <input type="text" name="userid"></td></tr>
+        <td>Picture: <input type="file" id="file"></td>   
+<tr>
+<td> <input type="submit" name="Submit"> 
+<input type="reset" name="Reset">
+</td>
+</tr>
+</form>
+</table>
+</body>
+</html>
