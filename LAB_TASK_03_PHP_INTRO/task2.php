@@ -1,15 +1,6 @@
 <?php
-
-
+$price = 73.5;
 $vat = 15;
 
-$priceExcludingVat = 10;
-
-
-$vatToPay = ($priceExcludingVat / 100) * $vat;
-
-
-$totalPrice = $priceExcludingVat + $vatToPay;
-
-
-echo number_format($totalPrice, 2);
+echo round($price * (($vat / 100) + 1), 2);
+?>
