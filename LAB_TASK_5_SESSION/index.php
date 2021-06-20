@@ -11,9 +11,9 @@
             </td>
 
             <td align="Right">
-                <a href="view/Home.php">Home</a> |
-                <a href="view/Login.php">Login</a> |
-                <a href="view/Registation.php">Registation</a>
+                <a href="view/home.php" style="color: blue">Home</a> |
+                <a href="view/login.php" style="color: blue">Login</a> |
+                <a href="view/registration_form.php" style="color: blue">Registation</a>
             </td>
         </tr>
 
